@@ -15,6 +15,7 @@ FROM c4 t1
 JOIN c4 t2
 ON t1.rank1 + 1 = t2.rank1 AND t1.customer_name = t2.customer_name)
 
+#needs adjusts
 SELECT customer_name
 FROM c5
 GROUP BY customer_name
